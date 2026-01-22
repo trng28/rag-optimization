@@ -3,6 +3,7 @@
 
 | Paper                                                                                                            | Venue    |
 | ---------------------------------------------------------------------------------------------------------------- | -------- |
+|[**SwiftKV: Fast Prefill-Optimized Inference with Knowledge-Preserving Model Transformation**](https://aclanthology.org/2025.emnlp-main.1306.pdf)|EMNLP'25|
 |[**TurboRAG: Accelerating Retrieval-Augmented Generation with Precomputed KV Caches for Chunked Text**](https://aclanthology.org/2025.emnlp-main.334.pdf)|EMNLP'25|
 |[**MCTS-RAG: Enhancing Retrieval-Augmented Generation with Monte Carlo Tree Search**](https://aclanthology.org/2025.findings-emnlp.672.pdf)|EMNLP'25|
 |[**OkraLong: A Flexible Retrieval-Augmented Framework for Long-Text Question Answering**](https://aclanthology.org/2025.findings-emnlp.890.pdf)|EMNLP'25|
