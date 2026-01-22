@@ -3,6 +3,7 @@
 
 | Paper                                                                                                            | Venue    |
 | ---------------------------------------------------------------------------------------------------------------- | -------- |
+|[**RevPRAG: Revealing Poisoning Attacks in Retrieval-Augmented Generation through LLM Activation Analysis**](https://aclanthology.org/2025.findings-emnlp.698.pdf)|EMNLP'25|
 |[**SwiftKV: Fast Prefill-Optimized Inference with Knowledge-Preserving Model Transformation**](https://aclanthology.org/2025.emnlp-main.1306.pdf)|EMNLP'25|
 |[**TurboRAG: Accelerating Retrieval-Augmented Generation with Precomputed KV Caches for Chunked Text**](https://aclanthology.org/2025.emnlp-main.334.pdf)|EMNLP'25|
 |[**MCTS-RAG: Enhancing Retrieval-Augmented Generation with Monte Carlo Tree Search**](https://aclanthology.org/2025.findings-emnlp.672.pdf)|EMNLP'25|
