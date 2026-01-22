@@ -3,9 +3,7 @@ from typing import List, Dict, Optional
 from pathlib import Path
 import pickle
 
-class KnowledgeBase:
-    """Knowledge base manager cho RAG"""
-    
+class KnowledgeBase:    
     def __init__(self, name: str = "default"):
         self.name = name
         self.documents = []
@@ -18,7 +16,6 @@ class KnowledgeBase:
         metadata: Optional[Dict] = None,
         is_poisoned: bool = False
     ):
-        """Thêm document vào knowledge base"""
         doc_id = len(self.documents)
         self.documents.append(text)
         self.metadata.append(metadata or {})
@@ -34,7 +31,6 @@ class KnowledgeBase:
         metadata_list: Optional[List[Dict]] = None,
         is_poisoned_list: Optional[List[bool]] = None
     ):
-        """Batch thêm documents"""
         if metadata_list is None:
             metadata_list = [{}] * len(texts)
         if is_poisoned_list is None:
@@ -48,7 +44,6 @@ class KnowledgeBase:
         return doc_ids
     
     def get_document(self, doc_id: int) -> Dict:
-        """Get document by ID"""
         return {
             'id': doc_id,
             'text': self.documents[doc_id],
@@ -57,11 +52,9 @@ class KnowledgeBase:
         }
     
     def get_all_documents(self) -> List[str]:
-        """Get documents"""
         return self.documents.copy()
     
     def get_stats(self) -> Dict:
-        """Get statistics về knowledge base"""
         return {
             'total_documents': len(self.documents),
             'poisoned_documents': len(self.poisoned_indices),
@@ -107,7 +100,6 @@ class KnowledgeBase:
         name: str = "dataset_kb",
         text_field: str = "context"
     ):
-        """Create knowledge base từ dataset"""
         kb = cls(name=name)
         
         for item in dataset:
