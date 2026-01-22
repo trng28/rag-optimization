@@ -1,0 +1,48 @@
+project:
+  name: "revprag"
+  seed: 42
+  device: "cuda"
+  output_dir: "./outputs"
+
+data:
+  datasets:
+    - "natural_questions"
+    - "hotpot_qa"
+    - "ms_marco"
+  train_split: 0.7
+  val_split: 0.15
+  test_split: 0.15
+  batch_size: 32
+
+llm:
+  model_name: "meta-llama/Llama-2-7b-hf"
+  max_length: 512
+  temperature: 0.7
+  top_p: 0.9
+
+retriever:
+  type: "contriever"
+  top_k: 5
+  embedding_dim: 768
+
+poisoning:
+  methods:
+    - "poisonedrag"
+    - "garag"
+    - "paprag"
+  poison_rate: 0.05
+  target_samples: 100
+
+detection:
+  model_type: "resnet18"
+  embedding_dim: 128
+  hidden_dim: 512
+  margin: 1.0
+  support_set_size: 100
+  
+training:
+  epochs: 50
+  learning_rate: 0.001
+  weight_decay: 0.0001
+  scheduler: "cosine"
+  early_stopping_patience: 10
