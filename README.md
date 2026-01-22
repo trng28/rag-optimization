@@ -15,6 +15,7 @@
 |[**EXIT: Context-Aware Extractive Compression for Enhancing Retrieval-Augmented Generation**](https://aclanthology.org/2025.findings-acl.253.pdf)|ACL'25|
 |[**ROSERAG: Robust Retrieval-augmented Generation with Small-scale LLMs via Margin-aware Preference Optimization**](https://aclanthology.org/2025.findings-acl.676.pdf)|ACL'25|
 |[**HASH-RAG: Bridging Deep Hashing with Retriever for Efficient, Fine Retrieval and Augmented Generation**](https://aclanthology.org/2025.findings-acl.1376.pdf)|ACL'25|
+|[**UniRAG: Unified Query Understanding Method for Retrieval Augmented Generation**](https://aclanthology.org/2025.acl-long.693.pdf)|ACL'25|
 |[**Luna: A Lightweight Evaluation Model to Catch Language Model Hallucinations with High Accuracy and Low Cost**](https://aclanthology.org/2025.coling-industry.34.pdf)|COLING'25|
 
 ---
