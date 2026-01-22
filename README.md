@@ -9,6 +9,7 @@
 |[**RTTC: Reward-Guided Collaborative Test-Time Compute**](https://aclanthology.org/2025.findings-emnlp.1349.pdf)|EMNLP'25|
 |[**Towards Agentic RAG with Deep Reasoning: A Survey of RAG-Reasoning Systems in LLMs**](https://aclanthology.org/2025.findings-emnlp.648.pdf)|EMNLP'25|
 |[**Query Optimization for Parametric Knowledge Refinement in Retrieval-Augmented Large Language Models**](https://aclanthology.org/2025.findings-emnlp.193.pdf)|EMNLP'25|
+|[**LLM-Based Dialogue Labeling for Multiturn Adaptive RAG**](https://aclanthology.org/2025.emnlp-industry.72.pdf)|EMNLP'25|
 |[**EXIT: Context-Aware Extractive Compression for Enhancing Retrieval-Augmented Generation**](https://aclanthology.org/2025.findings-acl.253.pdf)|ACL'25|
 |[**ROSERAG: Robust Retrieval-augmented Generation with Small-scale LLMs via Margin-aware Preference Optimization**](https://aclanthology.org/2025.findings-acl.676.pdf)|ACL'25|
 |[**HASH-RAG: Bridging Deep Hashing with Retriever for Efficient, Fine Retrieval and Augmented Generation**](https://aclanthology.org/2025.findings-acl.1376.pdf)|ACL'25|
