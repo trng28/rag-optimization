@@ -3,7 +3,7 @@ from typing import List, Dict
 import random
 
 class PoisoningAttack(ABC):
-    """Base class cho các phương pháp poisoning"""
+    """Base class for poisoning methods"""
     
     def __init__(self, target_model=None):
         self.target_model = target_model
@@ -196,6 +196,8 @@ class PoisoningManager:
         }
     
     def _generate_target_answer(self, correct_answer: str) -> str:
+        if correct_answer is None:
+            return None
         """Generate target answer != correct answer"""
         # Simplified 
         fake_answers = [
