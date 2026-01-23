@@ -1,6 +1,8 @@
+import sys
+sys.path.append('.')  
 from pathlib import Path
-from configs import Config
 from data.datasets import RAGDataset
+from configs import Config
 from data.poisoning import PoisoningManager
 from rag.knowledge_base import KnowledgeBase
 from models.llm_wrapper import LLMWrapper
