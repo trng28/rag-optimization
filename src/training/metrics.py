@@ -1,8 +1,5 @@
 import numpy as np
-from sklearn.metrics import (
-    accuracy_score, precision_score, recall_score, f1_score,
-    confusion_matrix, roc_auc_score, roc_curve
-)
+from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score, confusion_matrix, roc_auc_score, roc_curve
 from typing import Dict, List, Tuple, Optional
 import matplotlib.pyplot as plt
 import seaborn as sns
@@ -242,6 +239,8 @@ class RAGMetrics:
         reference: str,
         threshold: float = 0.8
     ) -> bool:
+        if reference is None or reference == "":
+            return None 
         """Check if generated answer matches reference"""
         # Simple normalized string matching
         gen_norm = generated.lower().strip()
