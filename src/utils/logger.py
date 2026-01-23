@@ -1,15 +1,15 @@
-# utils/logger.py
 import logging
 import sys
 from pathlib import Path
 from datetime import datetime
+from typing import Optional
 
 def setup_logger(
     name: str,
     log_file: Optional[str] = None,
     level: int = logging.INFO
 ) -> logging.Logger:
-    """Setup logger với console và file handlers"""
+    """Setup logger console và file handlers"""
     
     logger = logging.getLogger(name)
     logger.setLevel(level)
